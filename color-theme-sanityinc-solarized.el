@@ -471,7 +471,7 @@ names to which it refers are bound."
       (company-preview (:foreground ,faint :background ,contrast-background))
       (company-preview-common (:inherit company-preview :foreground ,yellow))
       (company-preview-search (:inherit company-preview :foreground ,blue))
-      (company-tooltip (:background ,contrast-background))
+      (company-tooltip (:background ,alt-background))
       (company-tooltip-selection (:background ,alt-background))
       (company-tooltip-common (:inherit company-tooltip :foreground ,yellow))
       (company-tooltip-common-selection (:inherit company-tooltip-selection :foreground ,yellow))
