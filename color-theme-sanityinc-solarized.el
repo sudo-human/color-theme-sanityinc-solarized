@@ -482,17 +482,17 @@ names to which it refers are bound."
       (company-echo-common (:inherit company-echo :foreground ,yellow))
 
       ;;;; tab-line/tab-bar (Emacs 27+)
-      (tab-line (:background ,alt-background :foreground ,faint))
+      (tab-line (:background ,background :foreground ,faint))
       (tab-line-tab (:background ,background :foreground ,normal))
       (tab-line-tab-inactive (:inherit tab-line-tab :foreground ,faint))
       (tab-line-tab-inactive-alternate (:inherit tab-line-tab-inactive))
       (tab-line-tab-current (:background ,background :foreground ,normal))
       ;; (tab-line-special )
-      (tab-line-highlight (:inherit tab-line-tab))
-      (tab-line-close-highlight (:foreground highlight))
-      (tab-bar (:inherit tab-line))
-      (tab-bar-tab (:inherit tab-line-tab))
-      (tab-bar-tab-inactive (:inherit tab-line-tab-inactive))
+      ;; (tab-line-highlight (:inherit tab-line-tab))
+      ;; (tab-line-close-highlight (:foreground highlight))
+      ;; (tab-bar (:inherit tab-line))
+      ;; (tab-bar-tab (:inherit tab-line-tab))
+      ;; (tab-bar-tab-inactive (:inherit tab-line-tab-inactive))
 
       ;; Term
       (term-color-black (:background ,base02 :foreground ,base02))
