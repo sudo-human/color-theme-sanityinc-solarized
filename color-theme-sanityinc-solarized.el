@@ -476,7 +476,7 @@ names to which it refers are bound."
       (company-tooltip-common (:inherit company-tooltip :foreground ,yellow))
       (company-tooltip-common-selection (:inherit company-tooltip-selection :foreground ,yellow))
       (company-tooltip-search (:inherit company-tooltip :foreground ,blue))
-      (company-tooltip-annotation (:inherit company-tooltip :foreground ,green))
+      (company-tooltip-annotation (:inherit company-tooltip-selection :foreground ,green))
       (company-scrollbar-bg (:inherit 'company-tooltip :background ,alt-background))
       (company-scrollbar-fg (:background ,contrast-background))
       (company-echo-common (:inherit company-echo :foreground ,yellow))
@@ -490,9 +490,9 @@ names to which it refers are bound."
       ;; (tab-line-special )
       ;; (tab-line-highlight (:inherit tab-line-tab))
       ;; (tab-line-close-highlight (:foreground highlight))
-      (tab-bar (:inherit tab-line))
-      (tab-bar-tab (:inherit tab-line-tab))
-      (tab-bar-tab-inactive (:inherit tab-line-tab-inactive))
+      (tab-bar (:background ,alt-background :foreground ,faint))
+      (tab-bar-tab (:background ,background :foreground ,normal))
+      (tab-bar-tab-inactive (:inherit tab-bar))
 
       ;; Term
       (term-color-black (:background ,base02 :foreground ,base02))
