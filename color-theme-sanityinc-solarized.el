@@ -147,7 +147,7 @@ names to which it refers are bound."
       (font-lock-comment-delimiter-face (:foreground ,faintest :slant italic))
       (font-lock-comment-face (:foreground ,faintest :slant italic))
       (font-lock-constant-face (:foreground ,blue))
-      (font-lock-doc-face (:foreground ,magenta))
+      (font-lock-doc-face (:foreground ,faint))
       (font-lock-doc-string-face (:foreground ,violet))
       (font-lock-function-name-face (:foreground ,yellow))
       (font-lock-keyword-face (:foreground ,green))
