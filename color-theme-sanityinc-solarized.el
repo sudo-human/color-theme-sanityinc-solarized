@@ -343,9 +343,9 @@ names to which it refers are bound."
       (diff-refine-removed (:inherit diff-removed :inverse-video t))
 
       ;; smerge
-      (smerge-refine-added (:inherit diff-refine-added))
-      (smerge-refine-changed (:inherit diff-refine-changed))
-      (smerge-refine-removed (:inherit diff-refine-removed))
+      (smerge-refined-added (:inherit diff-refine-added))
+      (smerge-refined-changed (:inherit diff-refine-changed))
+      (smerge-refined-removed (:inherit diff-refine-removed))
 
       (diff-hl-insert (:foreground ,green :background ,green))
       (diff-hl-change (:foreground ,blue :background ,blue))
