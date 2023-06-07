@@ -339,7 +339,7 @@ names to which it refers are bound."
       (diff-file-header (:foreground ,blue :background unspecified))
       (diff-hunk-header (:foreground ,magenta))
       (diff-refine-added (:inherit diff-added :inverse-video t))
-      (diff-refine-changed (:foregorund ,black))
+      (diff-refine-changed (:foregorund ,normal))
       (diff-refine-removed (:inherit diff-removed :inverse-video t))
 
       (diff-hl-insert (:foreground ,green :background ,green))
