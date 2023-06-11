@@ -300,7 +300,7 @@ names to which it refers are bound."
       (mode-line-emphasis (:slant italic))
       (mode-line-highlight (:foreground ,violet :box nil :weight bold))
       (minibuffer-prompt (:foreground ,blue))
-      (region (:background ,contrast-background :inverse-video nil))
+      (region (:background ,alt-background :inverse-video nil))
       (secondary-selection (:background ,alt-background))
 
       (header-line (:inherit mode-line-inactive :foreground ,cyan :background unspecified))
